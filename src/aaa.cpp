@@ -11,4 +11,7 @@
 #include "aaa.h"
 #include <iostream>
 
-void aaa::qiu_ni_le() { std::cout << "求你了，来测吧" << std::endl; }
+void aaa::qiu_ni_le()
+{
+    std::cout << "求你了，来测吧" << std::endl;
+}

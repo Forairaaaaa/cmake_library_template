@@ -10,8 +10,7 @@
  */
 #pragma once
 
-class aaa
-{
+class aaa {
 public:
     static void qiu_ni_le();
 };
