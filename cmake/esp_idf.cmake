@@ -1,12 +1,12 @@
 # Src files
 file(GLOB_RECURSE AAA_SRCS
     ${AAA_ROOT_DIR}/src/*.c
+    ${AAA_ROOT_DIR}/src/*.cc
     ${AAA_ROOT_DIR}/src/*.cpp
 )
 # Include
 set(AAA_INCS
     ${AAA_ROOT_DIR}/src/
-    ${AAA_ROOT_DIR}/src/spdlog/include/
 )
 
 # Public component requirement
